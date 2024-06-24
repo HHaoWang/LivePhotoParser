@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35005.142
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LivePhotoParser", "LivePhotoParser\LivePhotoParser.csproj", "{DAA7A13E-1F5D-4585-AB1E-CD56067DCAA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivePhotoParser.Meizu", "LivePhotoParser.Meizu\LivePhotoParser.Meizu.csproj", "{62154209-05B6-4784-8AC2-9BD8E8730EE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivePhotoParser.Test", "LivePhotoParser.Meizu.Test\LivePhotoParser.Test.csproj", "{6B14587C-888C-419C-844C-CB88552B7246}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivePhotoParser.Xiaomi", "LivePhotoParser.Xiaomi\LivePhotoParser.Xiaomi.csproj", "{EA4DDC5C-C44F-4D9B-B0C4-DED7C9F7EE6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAA7A13E-1F5D-4585-AB1E-CD56067DCAA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAA7A13E-1F5D-4585-AB1E-CD56067DCAA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAA7A13E-1F5D-4585-AB1E-CD56067DCAA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAA7A13E-1F5D-4585-AB1E-CD56067DCAA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62154209-05B6-4784-8AC2-9BD8E8730EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62154209-05B6-4784-8AC2-9BD8E8730EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62154209-05B6-4784-8AC2-9BD8E8730EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62154209-05B6-4784-8AC2-9BD8E8730EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B14587C-888C-419C-844C-CB88552B7246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B14587C-888C-419C-844C-CB88552B7246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B14587C-888C-419C-844C-CB88552B7246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B14587C-888C-419C-844C-CB88552B7246}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA4DDC5C-C44F-4D9B-B0C4-DED7C9F7EE6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA4DDC5C-C44F-4D9B-B0C4-DED7C9F7EE6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA4DDC5C-C44F-4D9B-B0C4-DED7C9F7EE6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA4DDC5C-C44F-4D9B-B0C4-DED7C9F7EE6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7AD7A1D7-D390-47F7-A664-5C052A085640}
+	EndGlobalSection
+EndGlobal
